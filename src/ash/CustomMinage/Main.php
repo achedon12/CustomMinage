@@ -2,6 +2,7 @@
 
 namespace ash\CustomMinage;
 
+use ash\CustomMinage\Commands\setMinage;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
@@ -22,6 +23,10 @@ class Main extends PluginBase implements Listener{
         $this->saveResource("config.yml");
 
         $this->db = new Config($this->getDataFolder() . "config.yml" . Config::YAML);
+
+        $this->getServer()->getCommandMap()->registerAll('Commands',[
+            new setMinage("setminage","configure minage plugin","/setminage")
+        ]);
 
         $db = Main::config();
         if($db->get("version") != "v1.0"){

@@ -17,7 +17,6 @@
 # Plugin Version | do not touch this
 version: "v1.0"
 
-
 # Configure message in game
 Message:
   NoPerm: "§4/!\ §fYou don't have the permission to use this command"
@@ -35,6 +34,9 @@ FormMessage:
   TitleLocal: "CustomMinage - LocalMinage >> World"
   ContentLocal: "Please select the minage world"
   DropdownLocal: "Server World List"
+  TitleLanguage: "CustomMinage - Language"
+  DropdownLanguage: "Language available"
+  LabelLanguage: "Choose your language"
 
 
 
@@ -51,11 +53,6 @@ External:
 
 Local:
   World: "minage"
-
-
-
-
-
 
 # Set your favorite Language <FR | ENG | ESP>
 # Coming soon

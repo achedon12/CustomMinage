@@ -3,6 +3,7 @@
 namespace ash\CustomMinage\Commands;
 
 use ash\CustomMinage\Main;
+use ash\CustomMinage\UI\LanguageUI;
 use ash\CustomMinage\UI\PortIpUI;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -20,7 +21,7 @@ class setMinage extends Command{
        if($sender instanceof Player ){
            if($sender->hasPermission("use.setMinage")){
               if(empty($args)){
-                  $sender->sendMessage("§b-- ----[§dCommand for CustomMinage]§b---- --\n\n/setminage <toggle: external|local> <toggle: true|false>\n");
+                  $sender->sendMessage("§b-- ----[§dCommand for CustomMinage]§b---- --\n\n/setminage <toggle: external|local> <toggle: true|false>\n/setminage language <toggle: FR>");
               }else{
                   if($args[0] === "external"){
                       if(empty($args[1])){
@@ -55,6 +56,9 @@ class setMinage extends Command{
                           $db->setNested("Minage.local","false");
                           $db->save();
                       }
+                  }
+                  if($args[0] === "language"){
+                      LanguageUI::open($sender);
                   }
               }
            }else{
