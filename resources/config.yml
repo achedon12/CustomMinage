@@ -38,8 +38,6 @@ FormMessage:
   DropdownLanguage: "Language available"
   LabelLanguage: "Choose your language"
 
-
-
 # Please put true or false in "local" or "external"
 # external = server transfer
 # local = world transfer

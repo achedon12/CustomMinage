@@ -4,7 +4,6 @@
     <list default="true" id="f68749ae-27c8-4088-8bd2-aa6f0a99afae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ash/CustomMinage/Commands/setMinage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ash/CustomMinage/Commands/setMinage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629274153863</updated>
-      <workItem from="1629274154780" duration="7677000" />
+      <workItem from="1629274154780" duration="7988000" />
     </task>
     <servers />
   </component>

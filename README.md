@@ -56,6 +56,9 @@
         TitleLocal: "CustomMinage - LocalMinage >> World"
         ContentLocal: "Please select the minage world"
         DropdownLocal: "Server World List"
+        TitleLanguage: "CustomMinage - Language"
+        DropdownLanguage: "Language available"
+        LabelLanguage: "Choose your language"
 
 
 
